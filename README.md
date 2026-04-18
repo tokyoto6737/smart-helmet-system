@@ -1,4 +1,4 @@
-# Smart Helmet System 🚀
+# Smart Helmet System 
 
 ## Overview
 The Smart Helmet System is an IoT-based safety solution designed to enhance rider safety by enforcing helmet usage, detecting accidents in real time, and sending emergency alerts with location data.
@@ -6,6 +6,12 @@ The Smart Helmet System is an IoT-based safety solution designed to enhance ride
 This system integrates multiple sensors, wireless communication modules, and microcontrollers to create a reliable, real-world safety mechanism for two-wheeler riders.
 
 ---
+
+##  Project Highlights
+- Multi-module embedded system (RF + GSM + GPS)
+- Real-time accident detection and alert system
+- Ignition control based on safety compliance
+- Presented at National-Level Science Exhibition
 
 ## Key Features
 
@@ -66,6 +72,12 @@ The system is divided into two main modules:
 
 ---
 
+##  System Flow
+
+Helmet Unit → RF Transmission → Vehicle Unit → Ignition Control  
+                         ↓  
+                 Accident Detection → GPS → GSM Alert
+
 ## Code Structure
 
 - `Transmitter.ino` → Handles helmet-side logic (sensors + RF transmission)  
@@ -82,14 +94,12 @@ The system is divided into two main modules:
 
 ---
 
-## Project Highlights
+##  Results
 
-- Multi-module embedded system (RF + GPS + GSM + sensors)  
-- Real-world safety application with practical implementation  
-- Presented at a National-Level Science Exhibition  
-- Designed for low-latency and real-time response  
-
----
+- Reliable helmet detection and ignition control in testing  
+- Accident detection response time: < 2 seconds  
+- Successful SMS alert transmission with GPS coordinates  
+- Stable RF communication between helmet and vehicle unit  
 
 ## Future Improvements
 
